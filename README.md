@@ -5,3 +5,5 @@
 # Spring-rest: Multi-layerd Spring rest project
 
 # Jsp-Servlet: Maven jsp-servlet project
+
+# Spring-Web: Spring MVC Maven project
