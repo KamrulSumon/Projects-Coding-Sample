@@ -7,3 +7,5 @@
 # Jsp-Servlet: Maven jsp-servlet project
 
 # Spring-Web: Spring MVC Maven project
+
+# Distributed System: Client-Server Distributed Projects(Academic)
