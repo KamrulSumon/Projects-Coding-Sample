@@ -8,4 +8,4 @@
 
 # Spring-Web: Spring MVC Maven project
 
-# Distributed System: Client-Server Distributed Projects(Academic)
+# Distributed System: Client-Server Distributed Apps
