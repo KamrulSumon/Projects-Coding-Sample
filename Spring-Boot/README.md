@@ -50,4 +50,4 @@ Sum the results of applying the previous logic for each animal. The highest rate
 5. Calculate and display some statistics on the user-selected group: minimum rating, maximum rating, and average rating.
 
 
-NOTE: Special thanks for one interviewer who aked me to do this project
+NOTE: Special thanks to one interviewer who aked me to do this project
