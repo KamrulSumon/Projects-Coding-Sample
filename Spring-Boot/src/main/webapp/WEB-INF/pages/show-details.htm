@@ -1,0 +1,63 @@
+<div class="rating">
+    <strong> Statistics and Rating about :
+        <span th:text="${animaltype}"></span>
+    </strong>
+</div>
+
+<div class="characteristic">
+    <strong>
+        <span th:text="${animaltype}"></span>
+        Rating and characteristics...
+    </strong>
+</div>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Offense</th>
+        <th>Defense</th>
+        <th>Health</th>
+        <th>Items</th>
+        <th>Rating</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:if="${rating.empty}">
+        <td colspan="4">No tasks</td>
+    </tr>
+    <tr th:each="rate : ${rating}">
+        <td th:text="${rate.animal.name}">Name</td>
+        <td th:text="${rate.animal.offense}">Name</td>
+        <td th:text="${rate.animal.defense}">Name</td>
+        <td th:text="${rate.animal.health}">Name</td>
+        <td th:text="${rate.animal.items}">Name</td>
+        <td th:text="${rate.rating}">Name</td>
+    </tr>
+    </tbody>
+</table>
+<div>
+    <strong>
+        <span th:text="${animaltype}"></span>
+        Statistics...
+    </strong>
+</div>
+<div class="statistics">
+    <div><strong> Max Rating : </strong>
+        <span th:text="${max.animal.name}"></span>
+        <span th:text="${max.rating}"></span>
+
+    </div>
+
+    <div><strong> Min Rating : </strong>
+        <span th:text="${min.animal.name}"></span>
+        <span th:text="${min.rating}"></span>
+
+    </div>
+
+    <div><strong> Avg Rating : </strong>
+        <span th:text="${avg}"></span>
+
+    </div>
+</div>
+<button type="button"><a href="/rate">Go Back</a></button>

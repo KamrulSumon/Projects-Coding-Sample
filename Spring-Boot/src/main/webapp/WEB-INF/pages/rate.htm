@@ -1,0 +1,26 @@
+<h3>Select From Below</h3>
+<form th:action="@{/rate}" method="post" id="rateForm">
+    <div class="form-group">
+        <label for="animalType">Pick a category:</label>
+        <div class="row">
+            <div>
+                <select  name="animalType" id="animalType">
+                    <option disabled="disabled" selected="selected"> -- select a animal type --</option>
+                    <div class="animal" th:each="animal : ${animals}">
+                        <option th:text="${animal}">Animal Type</option>
+                    </div>
+                </select>
+            </div>
+            <div class="col-mid-8"></div>
+        </div>
+    </div>
+
+    <input type="submit" value="Submit"/>
+</form>
+
+
+
+
+
+
+

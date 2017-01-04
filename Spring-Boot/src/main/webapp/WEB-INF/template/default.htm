@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Candidate Exercise</title>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>-->
+    <link rel="stylesheet" type="text/css" href="../../resources/css/style.css" th:href="@{/resources/css/style.css}"/>
+</head>
+<body>
+<div id="header">
+    <div class="menu">
+        <a href="/" th:class="${selectedNav}? 'selected' : ''">All</a>
+        <a href="/rate">Rate</a>
+    </div>
+</div>
+<div th:replace="${content}">Here is some sample text!?!</div>
+</body>
+</html>

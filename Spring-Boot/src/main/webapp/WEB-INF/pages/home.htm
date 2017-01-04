@@ -1,0 +1,9 @@
+<div id="content">
+  <h2 class="header">All Animals</h2>
+  <div class="animal-list">
+    <div class="animal" th:each="animal : ${animals}">
+      <span class="name" th:text="${animal.name}">Name</span>
+      <span class="type" th:text="${animal.animalType}">Animal Type</span>
+    </div>
+  </div>
+</div>
