@@ -49,9 +49,3 @@ Sum the results of applying the previous logic for each animal. The highest rate
 4. Display the animals in the user-selected group, their characteristics, and their ratings on the /rate page, ordered by highest rated animal to lowest rated animal.
 5. Calculate and display some statistics on the user-selected group: minimum rating, maximum rating, and average rating.
 
-
-===== Deliverables =====
-
-1. A brief description of your approach to the task, including any assumptions you made or known issues with your code.
-2. Zipped candidate-exercise containing your work. If your zip file is too large, you can delete the contents of candidate-exercise/target before zipping to reduce the size.
-3. Copy of versioning log if applicable
